@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.main {
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  height: 773px;
+  position: absolute;
+  z-index: -10;
+  flex-direction: column;
+}
+.header {
+  width: 100%;
+  top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 117px;
+}
+.logo {
+  width: 101px;
+  height: 35px;
+  z-index: -1;
+}
+.vgs {
+  gap: 24px;
+  font-weight: 600px;
+}
+.navbar {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  z-index: -1;
+  gap: 24px;
+}
+.en {
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: white;
+}
+.hero-pure {
+  opacity: 72%;
+  font-size: 80px;
+  color: white;
+  padding-top: 100px;
+}
+.hero-awaits {
+  color: white;
+  font-size: 250px;
+  font-weight: 800;
+  line-height: 100%;
+  font-family: "Bebas Neue", sans-serif;
+}
+.hero-year {
+  opacity: 80%;
+  color: white;
+  font-size: 62px;
+  font-weight: 900;
+  line-height: 100%;
+}
+.zai {
+  flex-direction: column;
+  gap: 0px;
+}
+.location {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+}
+.lake {
+  width: 276px;
+  height: 370px;
+  border-radius: 40px;
+}
+.lake-travel {
+  width: 276px;
+  height: 370px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 40px;
+  box-shadow: -8px -8px 0px 0px rgba(82, 111, 118, 0.4),
+    8px 8px 0px 0px rgba(78, 171, 201, 0.25);
+}
+.lake-travel-name {
+  font-size: 25px;
+  color: #fdfdfe;
+  font-weight: 600;
+  position: absolute;
+  text-align: center;
+}
+.lake-travel-shadow {
+  inset: 0;
+  opacity: 0;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+}
+.lake-travel:hover .lake-travel-shadow {
+  opacity: 0.5;
+}
+.agency {
+  font-weight: 600;
+  font-size: 42px;
+  text-align: center;
+  color: black;
+  display: flex;
+  z-index: 0;
+  position: relative;
+  padding: 100px 50px 0px;
+  justify-content: center;
+}
+.pack {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  opacity: 0.5;
+}
+.road {
+  width: 100%;
+  height: 1022px;
+  margin-top: 50px;
+  position: absolute;
+}
+.btn {
+  width: 513px;
+  height: 112px;
+  background-color: #eee9d9;
+  border-radius: 120px;
+  margin: 140px 100px 0px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.day {
+  width: 40px;
+  height: 40px;
+  font-size: 10px;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 100%;
+}
+.Ners {
+  font-size: 15px;
+  color: black;
+}
+.check-vg {
+  font-size: 10px;
+  color: black;
+}
+.map-pin2 {
+  height: 15px;
+  width: 15px;
+}
+.pin {
+  width: 170px;
+  height: 170px;
+}
