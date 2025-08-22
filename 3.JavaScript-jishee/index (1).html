@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MST Japanese Language Center</title>
+  <meta name="description" content="MST — Япон хэлний сургалтын төв. N5–N1, JLPT бэлтгэл, ярианы клуб. Элсэлт нээлттэй." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Агуулга руу алгасах</a>
+
+  <header class="header">
+    <div class="container header__row">
+      <a class="brand" href="#">
+        <img src="logo.jpg" alt="MST Japanese Language Center лого" class="brand__logo" />
+        <span class="brand__text">MST Japanese Language Center</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Цэс нээх" />
+      <label for="nav-toggle" class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav" aria-label="Үндсэн цэс">
+        <ul>
+          <li><a href="#about">Бидний тухай</a></li>
+          <li><a href="#programs">Хөтөлбөрүүд</a></li>
+          <li><a href="#schedule">Хуваарь</a></li>
+          <li><a href="#testimonials">Сэтгэгдэл</a></li>
+          <li><a href="#register" class="btn btn--cta">Элсэх</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <h1>Япон хэлийг амьдралдаа хэрэглэх бодит сургалт</h1>
+          <p class="lead">N5–N1, JLPT бэлтгэл, Ярианы клуб — Монгол + Япон багшийн хосолсон арга зүй.</p>
+          <div class="cta">
+            <a class="btn btn--cta" href="#register">Элсэлтэд бүртгүүлэх</a>
+            <a class="btn btn--ghost" href="#placement">Үнэгүй түвшин тогтоох тест</a>
+          </div>
+          <ul class="badges" role="list">
+            <li>👩‍🏫 Native багш</li>
+            <li>💻 Онлайн/Офлайн</li>
+            <li>🏆 JLPT амжилт</li>
+          </ul>
+        </div>
+        <div class="hero__media" aria-hidden="true">
+          <div class="hero-card">
+            <div class="hero-card__media"></div>
+            <div class="hero-card__body">
+              <strong>JLPT N4 анги</strong>
+              <p>8 долоо хоног • 3x/7 хоног</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>Бидний тухай</h2>
+          <p>MST бол логондоо шингэсэн өнгийг вэб дизайндаа бүрэн тусгасан, ойлгомжтой, үр дүнд суурилсан сургалтын төв. Практик хэрэглээг тэргүүнд тавьж, ахицыг хэмждэг дотоод системтэй.</p>
+          <ul class="checklist" role="list">
+            <li>Minna no Nihongo + Marugoto хослуулсан curriculum</li>
+            <li>Ярианы клуб, багийн дасгалууд</li>
+            <li>Ахиц дэвшлийн самбар, зөвлөмж</li>
+          </ul>
+        </div>
+        <div class="about-stats">
+          <figure class="stat"><figcaption>JLPT тэнцсэн</figcaption><strong>93%</strong></figure>
+          <figure class="stat"><figcaption>Сэтгэл ханамж</figcaption><strong>4.9/5</strong></figure>
+          <figure class="stat"><figcaption>Сурагчид</figcaption><strong>1,200+</strong></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAMS -->
+    <section id="programs" class="section section--muted">
+      <div class="container">
+        <h2>Хөтөлбөрүүд</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>N5 Суурь</h3>
+            <p>Хэл зүйн үндэс, 600–800 үг, бичгийн систем.</p>
+            <a class="btn" href="#register">Элсэх</a>
+          </article>
+          <article class="card">
+            <h3>N4 Суурь бэхжүүлэх</h3>
+            <p>Өдөр тутмын харилцаа, 1500+ үгийн сан.</p>
+            <a class="btn" href="#register">Элсэх</a>
+          </article>
+          <article class="card">
+            <h3>JLPT N3/N2</h3>
+            <p>Сонсгол, уншлага, дүрмийн ахисан бэлтгэл.</p>
+            <a class="btn" href="#register">Элсэх</a>
+          </article>
+          <article class="card">
+            <h3>Ярианы клуб</h3>
+            <p>Сэдэвчилсэн уулзалтууд, native guest багш.</p>
+            <a class="btn" href="#register">Элсэх</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLACEMENT -->
+    <section id="placement" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>Үнэгүй түвшин тогтоох тест</h2>
+          <p>10–12 минутын богино тест — шууд оноо, зөвлөмж.</p>
+          <ul class="checklist" role="list">
+            <li>Сонсгол + дүрмийн асуулт</li>
+            <li>Оноогоо дариухан харах</li>
+            <li>Тохирох анги санал болгох</li>
+          </ul>
+        </div>
+        <div class="card form">
+          <form>
+            <label>Нэр <input type="text" placeholder="Жишээ: Батболд" required /></label>
+            <label>Имэйл <input type="email" placeholder="name@example.com" required /></label>
+            <button class="btn btn--cta" type="submit">Тест эхлүүлэх</button>
+            <p class="form-note">※ Демо — сервер холболтгүй.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section id="schedule" class="section section--muted">
+      <div class="container">
+        <h2>Цагийн хуваарь & Төлбөр</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Анги</th><th>Хугацаа</th><th>Өдөр</th><th>Цаг</th><th>Төлбөр</th><th></th></tr></thead>
+            <tbody>
+              <tr><th>N5</th><td>8 долоо хоног</td><td>Да/Лх/Ба</td><td>18:30–20:00</td><td>450,000₮</td><td><a class="btn btn--small" href="#register">Бүртгүүлэх</a></td></tr>
+              <tr><th>N4</th><td>8 долоо хоног</td><td>Мя/Пү/Бя</td><td>10:00–11:30</td><td>520,000₮</td><td><a class="btn btn--small" href="#register">Бүртгүүлэх</a></td></tr>
+              <tr><th>N3/N2</th><td>10 долоо хоног</td><td>Мя/Пү</td><td>19:00–21:00</td><td>680,000₮</td><td><a class="btn btn--small" href="#register">Бүртгүүлэх</a></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section">
+      <div class="container testimonials">
+        <h2>Амжилтын түүх</h2>
+        <figure class="t-item"><blockquote>“N4-д тэнцлээ! MST-гийн арга барил маш практик.”</blockquote><figcaption>— Энхжин</figcaption></figure>
+        <figure class="t-item"><blockquote>“Онлайн ч хичээлүүд интерактив. Ахицын самбар гоё.”</blockquote><figcaption>— Мөнх-Оргил</figcaption></figure>
+        <figure class="t-item"><blockquote>“Native багштай ярианы айдас арилсан.”</blockquote><figcaption>— Халиун</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- REGISTER -->
+    <section id="register" class="section section--accent">
+      <div class="container grid-2">
+        <div>
+          <h2>Элсэлт нээлттэй</h2>
+          <ul class="checklist" role="list">
+            <li>Онлайн/Офлайн, хосолсон горим</li>
+            <li>QPay, SocialPay, дансаар төлөх</li>
+            <li>24 цагт багтан холбогдоно</li>
+          </ul>
+        </div>
+        <div class="card form">
+          <form>
+            <div class="grid-2">
+              <label>Нэр <input type="text" required /></label>
+              <label>Утас <input type="tel" required /></label>
+            </div>
+            <div class="grid-2">
+              <label>Имэйл <input type="email" required /></label>
+              <label>Түвшин
+                <select required>
+                  <option value="">Сонгох…</option>
+                  <option>N5</option><option>N4</option><option>N3</option><option>N2</option><option>Ярианы клуб</option>
+                </select>
+              </label>
+            </div>
+            <label>Нэмэлт мессеж <textarea rows="3" placeholder="Жишээ: Орой 19:00 анги..."></textarea></label>
+            <label class="agree"><input type="checkbox" required /> Холбоо барихыг зөвшөөрч байна</label>
+            <button class="btn btn--cta" type="submit">Илгээх</button>
+            <p class="form-note">※ Демо — сервер холболтгүй.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>Холбоо барих</h2>
+          <address class="contact">
+            <p><strong>Хаяг:</strong> Баянгол дүүрэг 11-р хороо “МҮИС” 9 давхар, 910 тоот — <a href="https://maps.app.goo.gl/YaDfniSdRA6WBTyt8" target="_blank" rel="noopener">Google Maps дээр нээх</a></p>
+            <p><strong>Утас:</strong> <a href="tel:+97680000000">+976 8000 0000</a></p>
+            <p><strong>Имэйл:</strong> <a href="mailto:info@mst.mn">info@mst.mn</a></p>
+          </address>
+        </div>
+        <div class="map ph"><a class="map-link" href="https://maps.app.goo.gl/YaDfniSdRA6WBTyt8" target="_blank" rel="noopener">Google Maps дээр нээх</a><div class="map-address">Баянгол дүүрэг 11-р хороо “МҮИС” 9 давхар, 910 тоот</div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <p>© <span id="year"></span> MST Japanese Language Center</p>
+      <a class="to-top" href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Дээшээ ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const navToggle = document.getElementById('nav-toggle');
+    document.querySelectorAll('.nav a').forEach(a=>a.addEventListener('click',()=>navToggle.checked=false));
+  </script>
+</body>
+</html>
