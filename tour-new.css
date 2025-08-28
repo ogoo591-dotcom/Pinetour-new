@@ -275,16 +275,12 @@
   top: 700px;
   left: 1200px;
 }
-.realFooter {
-  width: 100%;
-  aspect-ratio: 1440/1220;
-  justify-content: center;
-}
 .footer {
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: -1;
+  aspect-ratio: 1440/1220;
 }
 .vgsHeader {
   text-align: center;
@@ -306,8 +302,7 @@
   width: 80%;
   height: 527px;
   gap: 40px;
-  margin-top: 50px;
-  margin-left: 200px;
+  margin: 50px 200px 0;
 }
 .box {
   width: 384px;
@@ -379,7 +374,7 @@
   margin-top: 40px;
 }
 .holboo {
-  padding: 280px 220px;
+  padding: 280px 220px 0px;
   display: flex;
   justify-content: space-between;
 }
