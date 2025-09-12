@@ -42,14 +42,19 @@
 
 .vgs {
   gap: 24px;
-  font-weight: 600px;
+  font-weight: 600;
   display: flex;
+  align-items: center;
 }
 .navbar {
   font-size: 18px;
+  font-weight: 600;
   color: white;
   text-align: center;
   gap: 24px;
+}
+.navbar:hover {
+  color: black;
 }
 
 .en {
@@ -58,6 +63,10 @@
   font-size: 14px;
   border-radius: 50%;
   background-color: white;
+}
+.en:hover {
+  background-color: rgb(93, 148, 166);
+  opacity: 0.8px;
 }
 .hero-pure {
   opacity: 72%;
